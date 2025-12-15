@@ -1,38 +1,84 @@
-# apogey_frontend
+# **Apogey Frontend**
 
-This template should help get you started developing with Vue 3 in Vite.
+Титульная страница сайта
+**ООО «Апогей»**
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📌 О проекте
 
-## Recommended Browser Setup
+Данный проект представляет собой **фронтенд-часть титульной страницы сайта компании ООО «Апогей»**, выполненную в рамках **тестового задания**.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Цель проекта — продемонстрировать:
 
-## Customize configuration
+* аккуратную вёрстку,
+* современный стек технологий,
+* базовую архитектуру Vue‑приложения,
+* готовность проекта к дальнейшему масштабированию.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Проект реализован как одностраничное приложение (SPA).
 
-## Project Setup
+---
 
-```sh
+## 🛠 Используемые технологии
+
+* **Vue 3**
+* **Vite**
+* **JavaScript (ES6+)**
+* **HTML5 / CSS3**
+* **npm**
+
+---
+
+## 💻 Рекомендуемая среда разработки
+
+### IDE
+
+* [VS Code](https://code.visualstudio.com/)
+* Расширение: [Vue (Official / Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+  ⚠️ Рекомендуется отключить **Vetur**
+
+### Браузер
+
+* Chromium-браузеры (Chrome, Edge, Brave)
+
+  * [Vue DevTools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+* Firefox
+
+  * [Vue DevTools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+
+---
+
+## ⚙️ Установка и запуск проекта
+
+### Установка зависимостей
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Запуск в режиме разработки
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+После запуска проект будет доступен по адресу, указанному в терминале (обычно `http://localhost:5173`).
 
-```sh
+---
+
+## 📦 Сборка для продакшена
+
+```bash
 npm run build
 ```
+
+Результат сборки появится в папке `dist/`.
+
+---
+
+## 📄 Дополнительно
+
+* Конфигурация сборщика:
+  [Vite Configuration Reference](https://vite.dev/config/)
+* Проект не содержит backend-логики и предназначен для демонстрации frontend-навыков.
