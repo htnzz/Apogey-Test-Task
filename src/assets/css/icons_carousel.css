@@ -1,0 +1,61 @@
+.clients-cards-wrapper {
+  justify-content: center;
+  min-height: 400px;
+  width: 100%;
+  padding: 20px 0;
+
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.icons {
+  display: flex;
+  gap: 40px;
+}
+
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+.text p {
+  max-width: 700px;
+  text-align: center;
+  font-size: 24px;
+  color: #4b5563;
+  line-height: 1.5;
+  transition: opacity 0.3s ease;
+}

@@ -1,0 +1,58 @@
+# ========================
+# Node / Vue 3
+# ========================
+node_modules/
+dist/
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional: editor folders
+.vscode/
+.idea/
+.DS_Store
+
+# ========================
+# Django / Python
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# Media files (uploads)
+media/
+# Static files (collectstatic)
+staticfiles/
+# Environment
+.env
+.env.*
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Pytest / coverage
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+.cache
+nosetests.xml
+pytest_cache/
